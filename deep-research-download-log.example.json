@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "pdf_inventory": {
+    "indexed_at": "2026-04-07T12:00:00Z",
+    "item_count": 1,
+    "items": [
+      {
+        "relative_path": "engineering/Example Deep Research Report.pdf",
+        "project_folder": "engineering",
+        "pdf_filename": "Example Deep Research Report.pdf",
+        "bytes": 120000,
+        "indexed_at": "2026-04-07T12:00:00Z"
+      }
+    ],
+    "note": "Project folders only; excludes .playwright-mcp and other paths."
+  },
+  "last_run": {
+    "started_at": "2026-04-07T12:00:00Z",
+    "finished_at": "2026-04-07T12:45:00Z",
+    "helper_command": "update-readmes",
+    "only_folder": null
+  },
+  "conversations": {
+    "00000000-0000-4000-8000-000000000001": {
+      "outcome": "downloaded",
+      "project_folder": "engineering",
+      "pdf_filename": "Example Deep Research Report.pdf",
+      "pdf_relative_path": "engineering/Example Deep Research Report.pdf",
+      "updated_at": "2026-04-07T12:05:00Z"
+    },
+    "00000000-0000-4000-8000-000000000002": {
+      "outcome": "skipped_no_deep_research",
+      "project_folder": "investing",
+      "updated_at": "2026-04-07T12:06:00Z"
+    },
+    "00000000-0000-4000-8000-000000000003": {
+      "outcome": "export_timeout",
+      "project_folder": "philosophy",
+      "detail": "export_timeout",
+      "updated_at": "2026-04-07T12:07:00Z"
+    }
+  }
+}

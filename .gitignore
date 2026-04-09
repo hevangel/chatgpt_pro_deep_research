@@ -1,0 +1,7 @@
+.venv/
+.playwright-user-data/
+.deep-research-sync-state.json
+deep-research-download-log.json
+__pycache__/
+*.pyc
+.playwright-mcp/

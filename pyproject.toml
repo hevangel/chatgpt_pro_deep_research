@@ -1,0 +1,10 @@
+[project]
+name = "chatgpt-pro-deep-research"
+version = "0.1.0"
+description = "Sync ChatGPT project Deep Research PDFs into this repo"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = []
